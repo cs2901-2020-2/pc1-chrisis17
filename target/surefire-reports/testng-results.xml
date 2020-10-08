@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-08T09:54:37 PET" name="Surefire suite" finished-at="2020-10-08T09:54:37 PET" duration-ms="35">
+    <groups>
+    </groups>
+    <test started-at="2020-10-08T09:54:37 PET" name="Surefire test" finished-at="2020-10-08T09:54:37 PET" duration-ms="35">
+      <class name="ObserverTest">
+        <test-method signature="notifyTest()[pri:0, instance:ObserverTest@70211e49]" started-at="2020-10-08T09:54:37 PET" name="notifyTest" finished-at="2020-10-08T09:54:37 PET" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notifyTest -->
+      </class> <!-- ObserverTest -->
+      <class name="ProfesorTest">
+        <test-method signature="checkLinkTest()[pri:0, instance:ProfesorTest@3b46dd8]" started-at="2020-10-08T09:54:37 PET" name="checkLinkTest" finished-at="2020-10-08T09:54:37 PET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLinkTest -->
+        <test-method signature="inputLinkTest()[pri:0, instance:ProfesorTest@3b46dd8]" started-at="2020-10-08T09:54:37 PET" name="inputLinkTest" finished-at="2020-10-08T09:54:37 PET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputLinkTest -->
+        <test-method signature="inputNameTest()[pri:0, instance:ProfesorTest@3b46dd8]" started-at="2020-10-08T09:54:37 PET" name="inputNameTest" finished-at="2020-10-08T09:54:37 PET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputNameTest -->
+        <test-method signature="inputTitleTest()[pri:0, instance:ProfesorTest@3b46dd8]" started-at="2020-10-08T09:54:37 PET" name="inputTitleTest" finished-at="2020-10-08T09:54:37 PET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputTitleTest -->
+      </class> <!-- ProfesorTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
