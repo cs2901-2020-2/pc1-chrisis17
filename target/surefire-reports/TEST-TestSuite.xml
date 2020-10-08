@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.286" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.296" tests="8" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/jdk-14.0.2/lib"/>
-    <property name="sun.java.command" value="/home/chris/Documents/Universidad/Ciclo 5/Ing. Software/pc1/RegisterApp/target/surefire/surefirebooter2129199584086383738.jar /home/chris/Documents/Universidad/Ciclo 5/Ing. Software/pc1/RegisterApp/target/surefire 2020-10-08T10-22-02_392-jvmRun1 surefire6549317457482547534tmp surefire_01401155809702788445tmp"/>
+    <property name="sun.java.command" value="/home/chris/Documents/Universidad/Ciclo 5/Ing. Software/pc1/RegisterApp/target/surefire/surefirebooter13044234891523179441.jar /home/chris/Documents/Universidad/Ciclo 5/Ing. Software/pc1/RegisterApp/target/surefire 2020-10-08T10-31-15_027-jvmRun1 surefire14882222126046516754tmp surefire_010530174530913559522tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/chris/Documents/Universidad/Ciclo 5/Ing. Software/pc1/RegisterApp/target/test-classes:/home/chris/Documents/Universidad/Ciclo 5/Ing. Software/pc1/RegisterApp/target/classes:/home/chris/.m2/repository/org/testng/testng/7.0.0-beta1/testng-7.0.0-beta1.jar:/home/chris/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/chris/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/home/chris/.m2/repository/org/apache/logging/log4j/log4j-core/2.13.3/log4j-core-2.13.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/home/chris/Documents/Universidad/Ciclo 5/Ing. Software/pc1/RegisterApp/target/surefire/surefirebooter2129199584086383738.jar"/>
+    <property name="surefire.real.class.path" value="/home/chris/Documents/Universidad/Ciclo 5/Ing. Software/pc1/RegisterApp/target/surefire/surefirebooter13044234891523179441.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="14.0.2+12-46"/>
     <property name="user.name" value="chris"/>
@@ -51,11 +51,19 @@
     <property name="java.class.version" value="58.0"/>
   </properties>
   <testcase name="notifyCE2ATest" classname="ObserverTest" time="0.009"/>
-  <testcase name="notifyCounterAlumnosTest" classname="ObserverTest" time="0"/>
+  <testcase name="notifyCounterAlumnosTest" classname="ObserverTest" time="0.007">
+    <failure message="did not expect to find [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: did not expect to find [false] but found [true]
+	at ObserverTest.notifyCounterAlumnosTest(ObserverTest.java:19)
+</failure>
+  </testcase>
   <testcase name="notifyCounterDocentesTest" classname="ObserverTest" time="0.001"/>
-  <testcase name="notifyDGATest" classname="ObserverTest" time="0"/>
-  <testcase name="checkLinkTest" classname="ProfesorTest" time="0.001"/>
-  <testcase name="inputLinkTest" classname="ProfesorTest" time="0"/>
+  <testcase name="notifyDGATest" classname="ObserverTest" time="0">
+    <failure message="did not expect to find [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: did not expect to find [false] but found [true]
+	at ObserverTest.notifyDGATest(ObserverTest.java:45)
+</failure>
+  </testcase>
+  <testcase name="checkLinkTest" classname="ProfesorTest" time="0"/>
+  <testcase name="inputLinkTest" classname="ProfesorTest" time="0.001"/>
   <testcase name="inputNameTest" classname="ProfesorTest" time="0"/>
   <testcase name="inputTitleTest" classname="ProfesorTest" time="0"/>
 </testsuite>

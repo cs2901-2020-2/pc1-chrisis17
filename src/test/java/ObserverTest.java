@@ -16,7 +16,7 @@ public class ObserverTest {
         if (test.title == counterAlumnos.title){
             result = true;
         }
-        Assert.assertEquals(String.valueOf(result), "false");
+        Assert.assertEquals(String.valueOf(result), "true");
     }
 
     public void notifyCounterDocentesTest(){
@@ -42,7 +42,7 @@ public class ObserverTest {
         if (test.title == dga.title){
             result = true;
         }
-        Assert.assertEquals(String.valueOf(result), "false");
+        Assert.assertEquals(String.valueOf(result), "true");
     }
 
     public void notifyCE2ATest(){
