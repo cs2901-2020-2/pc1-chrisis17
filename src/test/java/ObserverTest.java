@@ -10,7 +10,7 @@ public class ObserverTest {
         CounterAlumnos counterAlumnos = new CounterAlumnos(test);
         test.inputTitle("math");
         test.inputLink("2020-II CS2901 ES Ingeniería de Software I, 1, Semana05, Jesus Bellido, 10/08 08:00-10:00 Laboratorio.");
-        test.notifyOberservers();
+        test.notifyObservers();
         boolean result = false;
 
         if (test.title == counterAlumnos.title){
@@ -23,20 +23,20 @@ public class ObserverTest {
         CounterDocentes counterDocentes = new CounterDocentes(test);
         test.inputTitle("math");
         test.inputLink("2020-II CS2901 ES Ingeniería de Software I, 1, Semana05, Jesus Bellido, 10/08 08:00-10:00 Laboratorio.");
-        test.notifyOberservers();
+        test.notifyObservers();
         boolean result = false;
 
         if (test.title == counterDocentes.title){
             result = true;
         }
-        Assert.assertEquals(String.valueOf(result), "false");
+        Assert.assertEquals(String.valueOf(result), "true");
     }
 
     public void notifyDGATest(){
         DGA dga = new DGA(test);
         test.inputTitle("math");
         test.inputLink("2020-II CS2901 ES Ingeniería de Software I, 1, Semana05, Jesus Bellido, 10/08 08:00-10:00 Laboratorio.");
-        test.notifyOberservers();
+        test.notifyObservers();
         boolean result = false;
 
         if (test.title == dga.title){
@@ -49,12 +49,12 @@ public class ObserverTest {
         CE2A ce2A = new CE2A(test);
         test.inputTitle("math");
         test.inputLink("2020-II CS2901 ES Ingeniería de Software I, 1, Semana05, Jesus Bellido, 10/08 08:00-10:00 Laboratorio.");
-        test.notifyOberservers();
+        test.notifyObservers();
         boolean result = false;
 
         if (test.title == ce2A.title){
             result = true;
         }
-        Assert.assertEquals(String.valueOf(result), "false");
+        Assert.assertEquals(String.valueOf(result), "true");
     }
 }

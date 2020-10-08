@@ -54,12 +54,6 @@ public class Profesor implements Subject{
         return false;
     }
 
-    public void notifyOberservers(){
-        if (checkLink()){
-
-        }
-    }
-
     @Override
     public void registerObserver(Observer o) {
         observers.add(o);
