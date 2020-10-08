@@ -1,7 +1,7 @@
 public class CounterDocentes implements Observer{
-    private String title;
-    private String link;
-    private Subject profesor;
+    public String title;
+    public String link;
+    public Subject profesor;
 
     public CounterDocentes(Subject profesor){
         this.profesor = profesor;

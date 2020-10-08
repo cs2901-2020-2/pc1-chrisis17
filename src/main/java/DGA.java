@@ -1,7 +1,7 @@
 public class DGA implements Observer{
-    private String title;
-    private String link;
-    private Subject profesor;
+    public String title;
+    public String link;
+    public Subject profesor;
 
     public DGA(Subject profesor){
         this.profesor = profesor;

@@ -1,7 +1,7 @@
 public class CE2A implements Observer{
-    private String title;
-    private String link;
-    private Subject profesor;
+    public String title;
+    public String link;
+    public Subject profesor;
 
     public CE2A(Subject profesor){
         this.profesor = profesor;

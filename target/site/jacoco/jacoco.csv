@@ -1,6 +1,6 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-lab8,default,CounterAlumnos,7,9,0,0,3,4,1,1,1,1
-lab8,default,Profesor,40,115,8,8,10,32,7,10,2,7
-lab8,default,CounterDocentes,16,0,0,0,7,0,2,0,2,0
-lab8,default,CE2A,16,0,0,0,7,0,2,0,2,0
-lab8,default,DGA,16,0,0,0,7,0,2,0,2,0
+pc1-Christian,default,CounterAlumnos,7,9,0,0,3,4,1,1,1,1
+pc1-Christian,default,Profesor,40,115,8,8,10,32,7,10,2,7
+pc1-Christian,default,CounterDocentes,16,0,0,0,7,0,2,0,2,0
+pc1-Christian,default,CE2A,16,0,0,0,7,0,2,0,2,0
+pc1-Christian,default,DGA,16,0,0,0,7,0,2,0,2,0
